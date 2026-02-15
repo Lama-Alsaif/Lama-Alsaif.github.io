@@ -1,0 +1,199 @@
+# Arabic language strings for Lama Alsaif personal site
+
+lng:
+  name: العربية
+  code: ar
+  country: SA
+  switch_title: ع
+  offer:
+    title: اللغة
+    msg_page: عرض هذه الصفحة بالعربية.
+    msg_site: للرئيسية
+
+date:
+  long: "%-d %b %Y"
+  day: "%d"
+  year: "%Y"
+  months: [يناير, فبراير, مارس, أبريل, مايو, يونيو, يوليو, أغسطس, سبتمبر, أكتوبر, نوفمبر, ديسمبر]
+
+not_found:
+  header: الصفحة غير موجودة
+  line1: الصفحة المطلوبة غير موجودة.
+  line2: جرّب القائمة أو البحث إن وُجد.
+
+no_translation_tooltip: لا توجد ترجمة
+
+navigation:
+  contact_header: تواصل
+  side_navigation_button: القائمة الجانبية
+  scroll_back_to_top: العودة للأعلى
+
+color_scheme_switch_tooltip: المظهر
+
+search:
+  placeholder: بحث
+  noResultText: لم يتم العثور على نتائج.
+
+image_viewer:
+  load_error: تعذر تحميل الصورة.
+
+copyright:
+  additional_text: " جميع الحقوق محفوظة."
+
+creative_commons:
+  some_rights_reserved: بعض الحقوق محفوظة.
+  by: ما لم يُذكر خلاف ذلك، المحتوى مرخّص تحت رخصة المشاع الإبداعي 4.0.
+  by-nd: ما لم يُذكر خلاف ذلك، المحتوى مرخّص تحت رخصة المشاع الإبداعي 4.0 - بدون اشتقاق.
+  by-sa: ما لم يُذكر خلاف ذلك، المحتوى مرخّص تحت رخصة المشاع الإبداعي 4.0 - المشاركة بالمثل.
+  by-nc: ما لم يُذكر خلاف ذلك، المحتوى مرخّص تحت رخصة المشاع الإبداعي 4.0 - غير تجاري.
+  by-nc-nd: ما لم يُذكر خلاف ذلك، المحتوى مرخّص تحت رخصة المشاع الإبداعي 4.0 - غير تجاري - بدون اشتقاق.
+  by-nc-sa: ما لم يُذكر خلاف ذلك، المحتوى مرخّص تحت رخصة المشاع الإبداعي 4.0 - غير تجاري - المشاركة بالمثل.
+
+not-found:
+  title: "404"
+
+post:
+  read_time:
+    unit: " د"
+    text: " قراءة"
+    word_char: w
+    per_minute: 200
+  pager_buttons:
+    older_post: "← مقال أقدم"
+    newer_post: "مقال أحدث →"
+    first_post: الأول
+    last_post: الأخير
+  comments:
+    noscript: يرجى تفعيل JavaScript لعرض التعليقات.
+    disqus:
+      count_title: التعليقات
+      click_to_load: "تحميل التعليقات"
+      consent:
+        title: التعليقات (Disqus.com)
+        text: >
+          خدمة التعليقات مقدمة من طرف ثالث. بعرض المحتوى الخارجي فإنك توافق على $terms و $privacy_policy لـ disqus.com.
+        terms_link_text: شروط الخدمة
+        privacy_link_text: سياسة الخصوصية
+        settings_link_text: هذا الرابط
+        button:
+          load_once: عرض هذه المرة فقط
+          load_and_do_not_ask_again: عرض دائماً
+  table_of_contents:
+    heading: المحتويات
+    tooltip:
+      move: اسحب للنقل
+      close: إغلاق
+  share:
+    heading: مشاركة على
+    link_copied: تم نسخ الرابط!
+    tooltip:
+      twitter: تويتر
+      facebook: فيسبوك
+      telegram: تيليجرام
+      linkedin: لينكدإن
+      email: البريد
+      copy_link: نسخ الرابط
+
+post-list:
+  title: المدونة
+  button_name: المدونة
+  upside_down_tabs:
+    tab:
+      all: الكل
+      categories: التصنيفات
+      tags: الوسوم
+      years: السنوات
+      clear: مسح
+      close: إغلاق
+      tooltip:
+        clear: مسح
+        close: إغلاق
+    msg:
+      property_list:
+        tags: وسم
+        category: تصنيف
+        year: سنة
+      resultFoundTitleFormat: "{property} : {thumb}"
+
+home:
+  title: أهلاً
+  button_name: الرئيسية
+  new_posts_title: أحدث المقالات
+  new_posts_show_more_button: المزيد ...
+
+archives:
+  title: الأرشيف
+  button_name: الأرشيف
+  page_header: الأرشيف
+
+about:
+  title: عني
+  button_name: عني
+  email_title: البريد الإلكتروني
+
+links:
+  title: روابط
+  button_name: روابط
+  link_text: الموقع
+  info_text: معلومات
+
+projects:
+  title: المشاريع
+  button_name: المشاريع
+  read_more_text: اقرأ المزيد
+  read_less_text: اقرأ أقل
+
+privacy-policy:
+  title: &privacy_policy_title سياسة الخصوصية
+
+constants:
+  greetings: أهلاً
+  welcome:
+  sample: نموذج
+
+contact_form:
+  button_name: نموذج التواصل
+  formLoadingText: جاري تحميل النموذج...
+
+cookie_consent:
+  privacy_policy_link_text: *privacy_policy_title
+  side_nav_setting_button_tooltip: &cookie_settings إعدادات الكوكيز
+  panel_bar:
+    msg: >
+      يستخدم هذا الموقع ملفات تعريف الارتباط لتحسين الوظائف.
+      يتم تفعيلها بموافقتك.
+    privacy_msg: راجع $privacy_link.
+    buttons:
+      accept: &accept_button قبول الكل
+      settings: تخصيص
+      deny: &deny_button رفض
+      close: إغلاق
+  panel_settings:
+    title: *cookie_settings
+    msg: >
+      يستخدم هذا الموقع ملفات تعريف الارتباط. سيتم تفعيلها بموافقتك.
+    privacy_msg: راجع $privacy_link.
+    buttons:
+      accept: *accept_button
+      save: حفظ الاختيار
+      deny: *deny_button
+    always_active: دائم النشاط
+    consent_types:
+      necessary:
+        title: كوكيز ضرورية
+        info: ضرورية لعمل الموقع ولا يمكن تعطيلها. $gtag_info
+      analytics:
+        title: كوكيز الأداء
+        info: $gtag_info
+      preferences:
+        title: كوكيز الوظائف
+        info: $gtag_info
+      advertising:
+        title: كوكيز الإعلانات
+        info: $gtag_info
+    gtag_info:
+      ad_storage: تخزين متعلق بالإعلانات.
+      analytics_storage: تخزين متعلق بتحليلات الزيارات.
+      functionality_storage: تخزين لدعم وظائف الموقع.
+      personalization_storage: تخزين التخصيص.
+      security_storage: تخزين الأمان والمصادقة.

@@ -9,11 +9,13 @@ layout: default
 {%- include multi_lng/get-pages-by-lng.liquid pages = site.posts -%}
 
 {%- if page.img %}
+  {%- include default/img/get-img-path.liquid img_name=page.img layout=page.layout absolute=false -%}
+  {%- assign home_img_src = get_img_path_out | strip -%}
   {%- if site.data.conf.others.home.header_img_with_img_tag == true -%}
-    {%- capture home_img_tag -%} <img src="{{ page.img }}" alt=""/> {%- endcapture -%}
+    {%- capture home_img_tag -%} <img src="{{ home_img_src }}" alt=""/> {%- endcapture -%}
     {%- capture home_img_background_style -%} style="height: unset;" {%- endcapture -%}
   {% else %}
-    {%- capture home_img_background_style -%} style="background-image:url('{{ page.img }}');" {%- endcapture -%}
+    {%- capture home_img_background_style -%} style="background-image:url('{{ home_img_src }}');" {%- endcapture -%}
   {%- endif -%}
 {%- endif -%}
 

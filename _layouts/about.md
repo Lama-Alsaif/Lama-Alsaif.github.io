@@ -8,10 +8,14 @@ layout: default
 ---
 {%- include multi_lng/get-lng-by-url.liquid -%}
 {%- assign lng = get_lng -%}
+{%- if page.img -%}
+  {%- include default/img/get-img-path.liquid img_name=page.img layout=page.layout absolute=false -%}
+  {%- assign about_img_src = get_img_path_out | strip -%}
+{%- endif -%}
 <div class="multipurpose-container about-container">
   <div class="row about-main">
     <div class="col-md-3 about-img">
-      <img src="{{ page.img }}" alt="">
+      {%- if page.img -%}<img src="{{ about_img_src }}" alt="">{%- endif -%}
     </div>
     <div class="col-md-9 about-header">
       <h1 translate="no">{{ site.data.owner[lng].brand }}</h1>

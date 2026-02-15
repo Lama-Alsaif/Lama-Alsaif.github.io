@@ -1,232 +1,69 @@
-# you can move this content to front matter of [language]/tabs/projects.md
-###########################################################
-#                Projects Page Data
-###########################################################
+# Projects page
 page_data:
   main:
     header: "Projects"
-    info: "Your Project page description."
+    info: "A selection of my work and projects."
     text_color: "white"
-    # if you don't want to use background image, comment it. back_color will be activated.
-    img: ":projects-heading.jpg"
+    img: ":projects-heading.png"
     back_color: "lightblue"
 
   category:
-    - title: "Example"
-      type: id_example
-      color: "gray"
-    - title: "Picture"
-      type: id_picture
+    - title: "Data Science"
+      type: id_data_science
       color: "#62b462"
-    - title: "Quote"
-      type: id_quote
-      color: "#2FD0ED"
+    - title: "Web & Applications"
+      type: id_web_app
+      color: "#F4A273"
 
   list:
-    # example
-    - type: id_example
-      project_name: "Example Project"
-      project_excerpt: "Examples"
-      img: ":project1_thumb.jpg"
-      img_title: "img title1"
-      date: "2021-03-13"
+    - type: id_data_science
+      project_name: "Titanic Predict Survival"
+      project_excerpt: "Kaggle-style ML project: predict passenger survival and cabin level from the Titanic dataset."
+      img: "/assets/img/projects/titanic-cover.png"
+      img_title: "Titanic Predict Survival"
+      date: "2025-01-01"
       post: |
-        # Examples
+        # Titanic Predict Survival
 
-        This is an example page to display markdown related styles for Mr. Green Jekyll Theme.
+        A **machine learning** project built for the classic [Kaggle](https://www.kaggle.com/) Titanic competition. The notebook predicts whether a passenger survived the disaster and infers **cabin level** from the available features.
 
-        ### Headings (centered)
-        {:data-align="center"}
+        ## What it does
 
-        # Heading 1
+        - Uses the Titanic passenger dataset (e.g. age, sex, class, fare, embarkation).
+        - Trains a model to predict **survival** (binary classification).
+        - Predicts or infers **cabin level** from the data.
+        - Implemented in **Jupyter Notebook** for clear steps and visualizations.
 
-        ## Heading 2
+        ## Tech
 
-        ### Heading 3
+        - Python, Jupyter Notebook  
+        - Data analysis and ML (e.g. pandas, scikit-learn or similar)
 
-        #### Heading 4
+        [**View on GitHub**](https://github.com/Lama-Alsaif/titanic_predict_surivial)
 
-        ##### Heading 5
-
-        ###### Heading 6
-
-        ***
-
-        ### Paragraphs
-
-        #### Paragraph
-
-        **William Shakespeare**, Let me not to the marriage of true minds
-        Admit impediments. Love is not love
-        Which alters when it alteration finds,
-        Or bends with the remover to remove.
-        O no, it is an ever-fixed mark
-        That looks on tempests and is never shaken;
-        It is the star to every wand'ring barque,
-        Whose worth's unknown, although his height be taken.
-        Love's not Time's fool, though rosy lips and cheeks
-        Within his bending sickle's compass come;
-        Love alters not with his brief hours and weeks,
-        But bears it out even to the edge of doom.
-        If this be error and upon me proved,
-        I never writ, nor no man ever loved.
-
-        #### Texts
-
-        Quoted text `Hello world`
-
-        Bold text **Hello world**
-
-        Italic text _Hello world_
-
-        kbd text <kbd>Hello world</kbd>
-
-        #### Blockquote
-
-        > **William Shakespeare**, Let me not to the marriage of true minds
-        Admit impediments. Love is not love
-        Which alters when it alteration finds,
-        Or bends with the remover to remove.
-        O no, it is an ever-fixed mark
-        That looks on tempests and is never shaken;
-        It is the star to every wand'ring barque,
-        Whose worth's unknown, although his height be taken.
-        Love's not Time's fool, though rosy lips and cheeks
-        Within his bending sickle's compass come;
-        Love alters not with his brief hours and weeks,
-        But bears it out even to the edge of doom.
-        If this be error and upon me proved,
-        I never writ, nor no man ever loved.
-
-        ### Link
-
-        This is [Mr. Green Jekyll Theme](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme), a simple theme built for [Jekyll](https://jekyllrb.com/).
-
-        ### Picture
-
-        ![such a lovely place](:projects-heading.jpg)
-
-        ### Picture (centered)
-
-        ![such a lovely place](:project1_thumb.jpg){:data-align="center"}
-
-        ### Lists
-
-        - Apple
-        - Banana
-        - Orange
-
-        1. Fruits
-            1. Apples
-                - Granny Smith
-                - Mutsu
-            1. Bananas
-                - Cavendish
-                - Red
-        1. Vegetables
-
-        ***
-
-        ### Tables
-
-        #### Small Table (centered)
-
-        | Fruits(not aligned) | Alignment (centered) | num (right align) |
-        | ------------------- | :------------------: | ----------------: |
-        | Apple               |       centered       |              9999 |
-        | Banana              |  centered long text  |               999 |
-        | Orange              |       centered       |                99 |
-        | Lemon               |       centered       |                 9 |
-        {:data-align="center"}
-
-        #### Wide Table (centered)
-
-        scroll enabled when page is narrow
-
-        | Fruits | num (left align) | num (right align) | num  | num  | num  |
-        | ------ | :--------------- | ----------------: | ---- | ---- | ---- |
-        | Apple  | 1111             |              1111 | 2222 | 3333 | 4444 |
-        | Banana | 111              |               111 | 222  | 333  | 444  |
-        | Orange | 11               |                11 | 22   | 33   | 44   |
-        | Lemon  | 1                |                 1 | 2    | 3    | 4    |
-        {:data-align="center"}
-
-        #### Wider Table
-
-        scroll enabled when page is narrow
-
-        | Fruits | num (left align) | num (right align) | num  | num  | num  | num  | num  | num  |
-        | ------ | :--------------- | ----------------: | ---- | ---- | ---- | ---- | ---- | ---- |
-        | Apple  | 1111             |              1111 | 2222 | 3333 | 4444 | 5555 | 6666 | 7777 |
-        | Banana | 111              |               111 | 222  | 333  | 444  | 555  | 666  | 777  |
-        | Orange | 11               |                11 | 22   | 33   | 44   | 55   | 66   | 77   |
-        | Lemon  | 1                |                 1 | 2    | 3    | 4    | 5    | 6    | 7    |
-
-        ### Code
-
-        #### Quote
-
-        ```python
-        for i in range(5, 10):
-          print(i)
-        ```
-
-    # picture
-    - type: id_picture
-      project_name: "Example Project"
-      project_excerpt: "Picture"
-      img: ":project2_thumb.jpg"
-      img_title: "img title2"
-      date: "2021-04-23"
+    - type: id_web_app
+      project_name: "24-7 Pharmacist"
+      project_excerpt: "A Streamlit app that simulates a virtual pharmacist for medication and food-interaction questions."
+      img: "/assets/img/projects/pharmacist-cover.png"
+      img_title: "24-7 Pharmacist"
+      date: "2025-01-01"
       post: |
-        # Title
-        This is project content.
+        # 24-7 Pharmacist
 
-        ![Image](:project2_thumb.jpg)
+        A **virtual pharmacist** demo that helps users with questions about **medication and food interactions**, built with **Streamlit** and trained on curated medical content.
 
-    # quote
-    - type: id_quote
-      project_name: "Example Project"
-      project_excerpt: "William Shakespeare"
-      #img: ":project1_thumb.jpg"
-      #img_title: "img title3"
-      date: "2021-05-27"
-      post: |
-        Let me not to the marriage of true minds
-        Admit impediments. Love is not love
-        Which alters when it alteration finds,
-        Or bends with the remover to remove.
-        O no, it is an ever-fixed mark
-        That looks on tempests and is never shaken;
-        It is the star to every wand'ring barque,
-        Whose worth's unknown, although his height be taken.
-        Love's not Time's fool, though rosy lips and cheeks
-        Within his bending sickle's compass come;
-        Love alters not with his brief hours and weeks,
-        But bears it out even to the edge of doom.
-        If this be error and upon me proved,
-        I never writ, nor no man ever loved.
-    - type: id_quote
-      project_name: "Example Project"
-      project_excerpt: "Albert Einstein"
-      img: ":project2_thumb.jpg"
-      img_title: "img title4"
-      date: "2021-06-08"
-      post: |
-        Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.
-    - type: id_quote
-      project_name: "Example Project"
-      project_excerpt: "Mae West"
-      img: ":project1_thumb.jpg"
-      img_title: "img title5"
-      date: "2021-08-20"
-      post: |
-        You only live once, but if you do it right, once is enough.
-    - type: id_quote
-      project_name: "Example Project"
-      project_excerpt: "Mahatma Gandhi "
-      img: ":project2_thumb.jpg"
-      img_title: "img title6"
-      date: "2021-12-20"
-      post: |
-        Be the change that you wish to see in the world.
+        ## What it does
+
+        - Answers questions about **Metformin** (type 2 diabetes) and related topics using the National Library of Medicine’s Clinical Questions Collection and selected articles.
+        - Simulates a pharmacist-style assistant for **drug–food and drug–drug** interaction concerns.
+        - Gives personalized, easy-to-understand answers so users can make better decisions about their medications.
+
+        ## Tech
+
+        - **Python 3.8**, Streamlit  
+        - RAG / retrieval (e.g. Chroma) over clinical and Metformin-focused text  
+        - Styled UI (CSS) for a clear, professional look
+
+        Best used for **Metformin and type 2 diabetes**–related questions.
+
+        [**View on GitHub**](https://github.com/Lama-Alsaif/24-7-Pharmacist)

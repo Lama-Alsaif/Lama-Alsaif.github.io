@@ -5,7 +5,7 @@
 brand: "Lama Alsaif"
 
 # text below the brand name
-brand_sub_text: "Personal website"
+# brand_sub_text: "R&D Sr. Analyst · AI/ML"
 
 # used for seo meta post author (if it's not defined in post)
 name: "Lama Alsaif"
@@ -15,15 +15,15 @@ home:
   # you can also use $site_brand, $site_greetings, $site_welcome in line1 and line2 for replacing texts.
   top_header_line1: "$site_welcome"
   # if commented, top header will be a single line
-  top_header_line2: "To my personal website"
+  # top_header_line2: "R&D Sr. Analyst · AI & Machine Learning"
 
 # about page sub title
 about:
-  sub_title: "Personal website"
+  sub_title: "R&D Sr. Analyst · AI/ML · THIQAH"
 
 # if you don't want to add copyright year, comment or leave it blank.
 # the year during which the claimed copyright for the work was first asserted.
-copyright_start_year: "2025"
+copyright_start_year: "2026"
 
 # make sure creative_commons.enable is true in _data/conf/main.yml file
 creative_commons:
@@ -42,15 +42,15 @@ creative_commons:
 # seo meta this is needed for each language
 # If meta_description is not defined in front matter, it's created from (post / page) content,
 # if it has no content, this will be used for page description. It is also used in manifest.json
-meta_common_description: "Your meta description."
+meta_common_description: "Lama Alsaif — R&D Sr. Analyst at THIQAH. AI/ML, NLP, LLMs. KSU Computer Science. Certifications: Google Cloud, Microsoft Azure AI, Stanford NLP."
 
 # contact options (side nav bottom and about page)
 # the order of the items will be shown as here.
 # comment to remove any contact item
 contacts:
-  - github: "https://github.com/Lama-Alsaif"
+  - github: "Lama-Alsaif"
   - email: "lama.alsaif99@gmail.com"
-  - linkedin: "https://www.linkedin.com/in/lama-alsaif-409386223/"
+  - linkedin: "lama-alsaif-409386223/"
   #- twitter: ""
   #- mastodon: ""
   #- instagram: ""

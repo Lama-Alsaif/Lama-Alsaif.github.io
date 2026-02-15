@@ -1,0 +1,37 @@
+###########################################################
+# Owner's Personal Information (Arabic)
+###########################################################
+brand: "لمى السيف"
+# brand_sub_text: "محللة أولى بحث وتطوير · ذكاء اصطناعي وتعلم آلة"
+name: "لمى السيف"
+
+home:
+  top_header_line1: "$site_welcome"
+  # top_header_line2: "محللة أولى بحث وتطوير · ذكاء اصطناعي وتعلم الآلة"
+
+about:
+  sub_title: "محللة أولى بحث وتطوير · ثقة"
+
+copyright_start_year: "2026"
+creative_commons:
+  license_type: "by-sa"
+
+# meta_common_description: "لمى السيف — محللة أولى بحث وتطوير في ثقة. ذكاء اصطناعي، تعلم آلة، معالجة لغات طبيعية. جامعة الملك سعود. شهادات: Google Cloud، Microsoft Azure AI، Stanford NLP."
+
+contacts:
+  - github: "Lama-Alsaif"
+  - email: "lama.alsaif99@gmail.com"
+  - linkedin: "lama-alsaif-409386223/"
+
+comments:
+  disqus:
+    shortname: ""
+  giscus:
+    repo: ""
+    repo-id: ""
+    category: ""
+    category-id: ""
+
+google_analytics_id: ""
+google_site_verification: ""
+google_forms_contact_form_url: ""

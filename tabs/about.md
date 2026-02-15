@@ -1,44 +1,46 @@
 ---
 layout: about
-# multilingual page pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: id_about
-
-# image for page specific usage
-img: ":about.jpg"
-# publish date (used for seo)
-# if not specified, site.time will be used.
-#date: 2022-03-03 12:32:00 +0000
-
-# for override items in _data/lang/[language].yml
-#title: My title
-#button_name: "My button"
-# for override side_and_top_nav_buttons in _data/conf/main.yml
-#icon: "fa fa-bath"
-
-# seo
-# if not specified, date will be used.
-#meta_modify_date: 2022-03-03 12:32:00 +0000
-# check the meta_common_description in _data/owner/[language].yml
-#meta_description: ""
-
-# optional
-# please use the "image_viewer_on" below to enable image viewer for individual pages or posts (_posts/ or [language]/_posts folders).
-# image viewer can be enabled or disabled for all posts using the "image_viewer_posts: true" setting in _data/conf/main.yml.
-#image_viewer_on: true
-# please use the "image_lazy_loader_on" below to enable image lazy loader for individual pages or posts (_posts/ or [language]/_posts folders).
-# image lazy loader can be enabled or disabled for all posts using the "image_lazy_loader_posts: true" setting in _data/conf/main.yml.
-#image_lazy_loader_on: true
-# exclude from on site search
-#on_site_search_exclude: true
-# exclude from search engines
-#search_engine_exclude: true
-# to disable this page, simply set published: false or delete this file
-#published: false
+img: ":about.png"
 ---
 
-{%- comment -%} Please delete below and place your page content here {%- endcomment -%}
+### About me
 
-{%- include util/auto-content-generator.liquid -%}
-{{ website_info_text_first }}
+I'm **Lama Alsaif**, a Senior Analyst in Research & Development at **THIQAH**, focused on AI/ML products—from research and solution design to model fine-tuning and deployment. I hold a BSc in Computer Science from King Saud University and am passionate about NLP, large language models, and generative AI.
 
-{{ website_info_text_second }}
+---
+
+### Experience
+
+**Research & Development, Sr. Analyst** — THIQAH (Mar 2023 – present)  
+I work on large-scale AI products: research, solution design, model fine-tuning, and deployment. I design and optimize ML solutions in NLP, LLMs, and diffusion models—including multi-label classification, LangChain-based assistants, prompt engineering for diffusion and image background removal, and a company-wide labeling framework. I've built an auditing platform for product manipulation detection, a movie-creation assistant for agencies and scriptwriters, and use technologies such as NLP, LLMs, BERT, Stable Diffusion, Docker, FastAPI, and Streamlit with Agile delivery.
+
+**Data Scientist (Intern)** — stc, Advanced Analytics (May 2022 – Jan 2023)  
+Presented on Diffusion Models at department town halls; collaborated on a large-scale POC (solution design, data scraping, MongoDB, model fine-tuning, FastAPI deployment, front-end). Delivered EDA, clustering, and findings for GCTO; developed anomaly detection, EasyOCR fine-tuning, sentiment error analysis, and Arabic text classification.
+
+---
+
+### Education
+
+**Bachelor of Computer Science** — King Saud University (2017 – 2022)  
+Key courses: Machine Learning, Image Processing, Selected Topics in ML.
+
+---
+
+### Achievements
+
+- **1st place**, STC Hackathon (Oct 2021) — Fall monitoring system using a prototype with an embedded SVM model (AI + IoT).
+- **4th place**, Arabic Language Hackathon (Feb 2022) — Applied the Shakkala model for Arabic NLP diacritization.
+
+---
+
+### Certifications
+
+- Google Advanced Solutions Lab 
+- Experts' Journey in AI & ML — MCIT 
+- Microsoft Certified: Azure AI Fundamentals 
+- Microsoft Certified: Azure AI Engineer Associate 
+- Google Cloud Certified Professional Machine Learning Engineer
+- Stanford Certified — Natural Language Processing with Deep Learning
+- Samsung Innovation Campus — AI Course 
+- Stanford Certified — Deep Generative Models (VAEs, GANs, flows, diffusion)

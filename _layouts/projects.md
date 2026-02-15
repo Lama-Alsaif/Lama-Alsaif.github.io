@@ -13,7 +13,9 @@ layout: default
 
 {%- assign project_container_style = nil -%}
 {%- if project_data.main.img -%}
-  {%- capture project_container_style -%} style="background-image:url('{{ project_data.main.img }}');" {%- endcapture -%}
+  {%- include default/img/get-img-path.liquid img_name=project_data.main.img layout="projects" absolute=false -%}
+  {%- assign project_heading_img_src = get_img_path_out | strip -%}
+  {%- capture project_container_style -%} style="background-image:url('{{ project_heading_img_src }}');" {%- endcapture -%}
 {%- elsif project_data.main.back_color %}
   {%- capture project_container_style -%} style="background-color:{{ project_data.main.back_color }};" {%- endcapture -%}
 {%- endif %}

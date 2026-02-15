@@ -174,7 +174,7 @@ privacy-policy:
 # constants to be replaced for
 constants:
   greetings: Hello
-  welcome: Welcome
+  welcome: 
   sample: Sample
 
 # for contact form
