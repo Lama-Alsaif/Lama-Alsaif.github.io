@@ -9,7 +9,9 @@
     <div class="side-nav-brand">
       {% include multi_lng/get-page-by-layout.liquid layout = 'home' -%}
       {% if site.data.conf.main.side_nav_profile_img_path -%}
-        <img src="{{ site.baseurl }}{{ site.data.conf.main.side_nav_profile_img_path }}" alt="">
+        <div class="side-nav-avatar">
+          <img src="{{ site.baseurl }}{{ site.data.conf.main.side_nav_profile_img_path }}" alt="">
+        </div>
       {% endif -%}
       <div class="brand-holder">
         {% if site.data.conf.main.side_nav_brand_text_enable -%}
