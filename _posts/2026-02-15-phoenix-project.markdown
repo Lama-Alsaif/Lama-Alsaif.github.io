@@ -12,7 +12,7 @@ date: 2026-02-15 12:00:00 +0000
 
 Over the past few months, I had the unique opportunity to read *The Phoenix Project* daily with Hebah, who was my manager at the time. This wasn't just a book club — it became a shared learning journey that helped us grow both individually and professionally.
 
-Reading and discussing each chapter together gave us space to reflect deeply on how technology and business are intertwined, how to lead through chaos, and how to build stronger, more resilient teams. I'm grateful for her insights, patience, and constant encouragement throughout that period. Those daily discussions became one of the most valuable learning experiences of my career.
+Reading and discussing each chapter together gave us space to reflect deeply on how technology and business are intertwined, how to lead through chaos, and how to build stronger, more resilient teams. I'm grateful for her insights, patience, and constant encouragement throughout that period. Those daily discussions became one of the most valuable learning experiences of my career. You can check Hebah's perspective on the book [here](https://hebah.io/blog/feb-15-2026/).
 
 ## Why The Phoenix Project?
 
