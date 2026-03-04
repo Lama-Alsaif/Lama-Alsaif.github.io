@@ -14,8 +14,8 @@ source "https://rubygems.org"
 # all supported plugins by GitHub Pages are included in "github-pages". (GitHub Pages doesn't support 3rd party plugins)
 gem "github-pages", "~> 231"
 
-# Pin ffi for Ruby 2.6 compatibility (ffi 1.17+ requires Ruby 3.0+)
-gem "ffi", "~> 1.16.0"
+# Use ffi compatible with your Ruby (1.16.x for Ruby 2.6; 1.17+ works on Ruby 3.x and avoids build issues on macOS)
+gem "ffi", ">= 1.16.0"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.

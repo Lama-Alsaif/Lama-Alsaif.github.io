@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# Run Jekyll locally using the project's Ruby (3.2) via rbenv.
+# Usage: ./serve   or:   ./serve --host 0.0.0.0
+set -e
+cd "$(dirname "$0")"
+export PATH="$HOME/.rbenv/shims:$PATH"
+if ! command -v rbenv &>/dev/null; then
+  echo "rbenv not found. Install it with: brew install rbenv ruby-build"
+  exit 1
+fi
+eval "$(rbenv init -)" 2>/dev/null || true
+bundle check &>/dev/null || bundle install
+exec bundle exec jekyll serve --watch --safe "$@"
